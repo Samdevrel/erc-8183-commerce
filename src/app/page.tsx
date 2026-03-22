@@ -460,13 +460,7 @@ export default function Home() {
             <a href="https://eips.ethereum.org/EIPS/eip-8183" className="text-blue-400 hover:underline">ERC-8183 Spec</a>
             {' • '}
             <a href="https://github.com/Samdevrel/erc-8183-commerce" className="text-gray-400 hover:underline">Source Code</a>
-          <button
-            onClick={() => window.location.href = '/docs/overview'}
-            className="w-full py-4 bg-purple-500 text-white font-bold border-4 border-purple-400 hover:bg-purple-400 mb-4"
-          >
-            {buttonText}
-          </button>
-                    </p>
+          </p>
         </footer>
       </div>
     </main>
